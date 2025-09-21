@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section id="sobreForm">
+        <h3> Datos de los sobres </h3>
+        <input type="text" id="sobreForm_inValorBillete" placeholder="Valor del billete"></input>
+        <input type="text" id="sobreForm_inCantidadBilletes" placeholder="Cantidad de billetes"></input>
+        <button id="sobreForm_btProcesar">Procesar</button>
+
+    </section>
+    <section id="mainForm">
+        <h3> informacion de los sobres </h3>
+        <div id="mainForm_salida"></div>
+
+    </section>
+    <script type="module">
+        import Cl_principal from "./dist/principal.js"
+    new Cl_principal()
+  </script>
+</body>
+</html>
